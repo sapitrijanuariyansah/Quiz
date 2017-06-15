@@ -1,0 +1,62 @@
+.wrap{
+background: #00FFFF;
+width: 1100px;
+margin: 10px auto;
+}
+
+/*bagian header*/
+.wrap .header{
+background-image: url("latar.jpg");
+/*height: 50px;*/
+padding: 2px 10px;
+}
+
+/*akhir header*/
+
+/*bagian menu*/
+.wrap .menu{
+background: black;
+}
+
+.wrap .menu ul{
+padding: 0;
+margin: 0;
+background: black;
+overflow: hidden;
+}
+
+.wrap .menu ul li{
+float: left;
+list-style-type: none;
+padding: 2px;
+}
+/*akhir menu*/
+
+.clear{
+clear: both;
+}
+
+.badan{
+height: 700px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+background: #DCDCDC;
+float: left;
+width: 20%;
+height: 100%;
+}
+
+/*akhir sidebar*/
+
+.wrap .badan .content{
+background:white;
+float: left;
+height: 100%;
+width: 80%;
+}
+
+.wrap .footer{
+background: black;
+width: 100%;
+}
